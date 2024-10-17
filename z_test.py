@@ -6,7 +6,7 @@ import libs.tesseract as tess
 
 nameLD= "goc"
 
-ld.pressKey(nameLD, "KEYCODE_HOME")
+
 ld.takeScreen(nameLD)
 ld.getScreen(nameLD)
 image_path = os.path.dirname(os.path.abspath(__file__))+"\\libs\\temp\\"+nameLD+".png"
